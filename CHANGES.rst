@@ -4,7 +4,8 @@ Changelog
 3.3.4-arsia (unreleased)
 ------------------------
 
-- Nothing changed yet.
+- Do not show reference line number in translation files refs #7776
+  [schminitz]
 
 
 3.3.3-arsia (2014-02-06)
