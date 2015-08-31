@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3.4-arsia (unreleased)
+3.3.4-arsia (2015-08-31)
 ------------------------
 
 - Do not show reference line number in translation files refs #7776
