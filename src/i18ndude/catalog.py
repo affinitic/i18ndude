@@ -655,7 +655,7 @@ class PTReader:
                 self._add_msg(msgid,
                               msgstr,
                               [],
-                              [l[0] + ':' + str(l[1]) for l in tal[msgid]],
+                              [l[0] for l in tal[msgid]],
                               [],
                               self.domain)
 
@@ -705,7 +705,7 @@ class PYReader:
             self._add_msg(msgid,
                           msgid.default or '',
                           [],
-                          [l[0] + ':' + str(l[1]) for l in py[msgid]],
+                          [l[0] for l in py[msgid]],
                           [],
                           self.domain)
         return []
