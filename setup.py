@@ -56,9 +56,5 @@ setup(name='i18ndude',
           'console_scripts': [
               'i18ndude=i18ndude.script:main',
               ],
-          # Documentation generation
-          'zest.releaser.prereleaser.before': [
-              'i18ndude_cli = i18ndude.utils:prepare_cli_documentation',
-              ],
           },
       )
