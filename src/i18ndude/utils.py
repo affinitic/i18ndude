@@ -150,12 +150,12 @@ def wrapString(value):
     return lines
 
 
-#def prepare_cli_documentation(data):
-#    """Update the command line docs in the docs dir.
+def prepare_cli_documentation(data):
+   """Update the command line docs in the docs dir.
 
-#    This uses a hook from zest.releaser to update some documentation
-#    when doing a release.  See our setup.py and setup.cfg.
-#    """
+   This uses a hook from zest.releaser to update some documentation
+   when doing a release.  See our setup.py and setup.cfg.
+   """
 #    if data['name'] != 'i18ndude':
 #        # We're available everywhere, but we're only intended to be
 #        # used when we release i18ndude.
