@@ -484,6 +484,10 @@ def tal_strings(dir, domain="zope", include_default_domain=False, exclude=()):
     from zope.tal.talgettext import POEngine, POTALInterpreter
     from zope.tal.htmltalparser import HTMLTALParser
     from zope.tal.talparser import TALParser
+    import sys
+    # i18n patch if templates using special characters
+    reload(sys)
+    sys.setdefaultencoding('UTF8')
     engine = POEngine()
 
     class Devnull(object):
