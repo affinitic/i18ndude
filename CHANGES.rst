@@ -4,7 +4,8 @@ Changelog
 3.3.5-arsia (unreleased)
 ------------------------
 
-- Nothing changed yet.
+- i18n patch if templates using special characters
+  [francois]
 
 
 3.3.4-arsia (2015-08-31)
