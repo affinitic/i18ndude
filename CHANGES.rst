@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3.5-arsia (unreleased)
+3.3.5-arsia (2017-01-30)
 ------------------------
 
 - i18n patch if templates using special characters
